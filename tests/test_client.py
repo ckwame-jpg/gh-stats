@@ -1,5 +1,6 @@
-from unittest.mock import patch, MagicMock
-from gh_stats.github_client import get_user, get_repos, get_events
+from unittest.mock import MagicMock, patch
+
+from gh_stats.github_client import get_events, get_repos, get_user
 
 
 def _mock_response(data, status=200):

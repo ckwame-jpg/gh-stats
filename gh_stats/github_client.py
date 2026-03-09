@@ -1,8 +1,9 @@
-import os
 import json
+import os
 import time
-import httpx
 from pathlib import Path
+
+import httpx
 
 CACHE_DIR = Path.home() / ".cache" / "gh-stats"
 CACHE_TTL = 300  # 5 minutes
